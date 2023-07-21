@@ -1,0 +1,849 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="1. 图文并茂解释开源许可证 GPL、BSD、MIT、Mozilla、Apache和LGPL的区别？ 1.1 open acess现今存在的开源协议很多，而经过Open Source Initiative组织通过批准的开源协议目前有58种。我们现在常见的开源协议如BSD, GPL, LGPL,MIT等都是OSI批准的协议。如果要开源自己的代码，最好也是选择这些被批准的开源协议。 1.2 GPL许可">
+<meta property="og:type" content="article">
+<meta property="og:title" content="第一周">
+<meta property="og:url" content="http://example.com/2023/07/01/%E7%AC%AC%E4%B8%80%E5%91%A8/index.html">
+<meta property="og:site_name" content="5-12 23:30">
+<meta property="og:description" content="1. 图文并茂解释开源许可证 GPL、BSD、MIT、Mozilla、Apache和LGPL的区别？ 1.1 open acess现今存在的开源协议很多，而经过Open Source Initiative组织通过批准的开源协议目前有58种。我们现在常见的开源协议如BSD, GPL, LGPL,MIT等都是OSI批准的协议。如果要开源自己的代码，最好也是选择这些被批准的开源协议。 1.2 GPL许可">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2023/07/01/%E7%AC%AC%E4%B8%80%E5%91%A8/aafcb7ae32db85d44a6c869bdfb90c17_free_software_licenses.png">
+<meta property="og:image" content="http://example.com/2023/07/01/%E7%AC%AC%E4%B8%80%E5%91%A8/5859baa175ca97e8bf32ec61352001e3_format,png.png">
+<meta property="og:image" content="http://example.com/2023/07/01/%E7%AC%AC%E4%B8%80%E5%91%A8/3be6d74036b67e6e4cfd71c97b935166_webp.webp">
+<meta property="article:published_time" content="2023-07-01T21:15:41.000Z">
+<meta property="article:modified_time" content="2023-07-21T14:41:32.959Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/2023/07/01/%E7%AC%AC%E4%B8%80%E5%91%A8/aafcb7ae32db85d44a6c869bdfb90c17_free_software_licenses.png">
+  
+  
+  <title>第一周 - 5-12 23:30</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                Home
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                Archives
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                Categories
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                Tags
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                About
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="第一周">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2023-07-01 21:15" pubdate>
+        July 1, 2023 pm
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      13k 字
+    </span>
+  
+
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      107 分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">第一周</h1>
+            
+            <div class="markdown-body">
+              <h1 id="1-图文并茂解释开源许可证-GPL、BSD、MIT、Mozilla、Apache和LGPL的区别？"><a href="#1-图文并茂解释开源许可证-GPL、BSD、MIT、Mozilla、Apache和LGPL的区别？" class="headerlink" title="1. 图文并茂解释开源许可证 GPL、BSD、MIT、Mozilla、Apache和LGPL的区别？"></a>1. 图文并茂解释开源许可证 GPL、BSD、MIT、Mozilla、Apache和LGPL的区别？</h1><p><img src="aafcb7ae32db85d44a6c869bdfb90c17_free_software_licenses.png" srcset="/img/loading.gif" lazyload alt="aafcb7ae32db85d44a6c869bdfb90c17_free_software_licenses"></p>
+<h2 id="1-1-open-acess"><a href="#1-1-open-acess" class="headerlink" title="1.1 open acess"></a>1.1 open acess</h2><p>现今存在的开源协议很多，而经过<a target="_blank" rel="noopener" href="http://www.opensource.org/licenses/alphabetical">Open Source Initiative</a>组织通过批准的开源协议目前有58种。我们现在常见的开源协议如BSD, GPL, LGPL,MIT等都是OSI批准的协议。如果要开源自己的代码，最好也是选择这些被批准的开源协议。</p>
+<h2 id="1-2-GPL许可证-GNU-General-Public-License"><a href="#1-2-GPL许可证-GNU-General-Public-License" class="headerlink" title="1.2 GPL许可证(GNU General Public License)"></a>1.2 GPL许可证(GNU General Public License)</h2><p>1980，一个叫Richard Stallman的美国人因为无法容忍软件私有化，而建立了GPL许可证。他认为，软件的源代码是全人类的财富，应该允许程序员自由共享。 GPL许可证的核心含义是：允许任何人观看、修改，并散播程序软件里的原始程序码，条件是如果你要发布修改后的版本就要连源代码一起公布，不允许修改后和衍生的代码做为闭源的商业软件发布和销售。</p>
+<p>GPL协议和BSD，Apache Licence等鼓励代码重用的许可很不一样。GPL的出发点是代码的开源/免费使用和引用/修改/衍生代码的开源/免费使用，但不允许修改后和衍生的代码做为闭源的商业软件发布和销售。这也就是为什么我们能用免费的各种linux，包括商业公司的linux和linux上各种各样的由个人，组织，以及商业软件公司开发的免费软件了。</p>
+<p>GPL协议的主要内容是只要在一个软件中使用(”使用”指类库引用，修改后的代码或者衍生代码)GPL协议的产品，则该软件产品必须也采用GPL协议，既必须也是开源和免费。这就是所谓的”传染性”。GPL协议的产品作为一个单独的产品使用没有任何问题，还可以享受免费的优势。</p>
+<p>由于GPL严格要求使用了GPL类库的软件产品必须使用GPL协议，对于使用GPL协议的开源代码，商业软件或者对代码有保密要求的部门就不适合集成/采用作为类库和二次开发的基础。</p>
+<p>其它细节如再发布的时候需要伴随GPL协议等和BSD/Apache等类似。</p>
+<h2 id="1-3-BSD许可证-Berkeley-Software-Distribution-license"><a href="#1-3-BSD许可证-Berkeley-Software-Distribution-license" class="headerlink" title="1.3 BSD许可证(Berkeley Software Distribution license)"></a>1.3 BSD许可证(<strong>B</strong>erkeley <strong>S</strong>oftware <strong>D</strong>istribution license)</h2><p><em>(original BSD license、FreeBSD license、Original BSD license)</em></p>
+<p>BSD许可证原先是用在加州大学伯克利分校发表的各个4.4BSD/4.4BSD-Lite版本上面（BSD是Berkeley Software Distribution的简写）的，后来也就逐渐沿用下来。1979年加州大学伯克利分校发布了BSD Unix，被称为<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%BC%80%E6%94%BE%E6%BA%90%E4%BB%A3%E7%A0%81/114160?fromModule=lemma_inlink">开放源代码</a>的先驱，BSD许可证就是随着BSD Unix发展起来的。BSD许可证现在被Apache和BSD操作系统等开源软件所采纳。</p>
+<p>BSD开源协议是一个给于使用者很大自由的协议。基本上使用者可以”为所欲为”，可以自由的使用，修改源代码，也可以将修改后的代码作为开源或者专有软件再发布。 但”为所欲为”的前提当你发布使用了BSD协议的代码，或则以BSD协议代码为基础做二次开发自己的产品时，需要满足三个条件：</p>
+<p>如果再发布的产品中包含源代码，则在源代码中必须带有原来代码中的BSD协议。 如果再发布的只是二进制类库/软件，则需要在类库/软件的文档和版权声明中包含原来代码中的BSD协议。 不可以用开源代码的作者、机构名字和原来产品的名字做市场推广。 BSD 代码鼓励代码共享，但需要尊重代码作者的著作权。BSD由于允许使用者修改和重新发布代码，也允许使用或在BSD代码上开发商业软件发布和销售，因此是对商业集成很友好的协议。而很多的公司企业在选用开源产品的时候都首选BSD协议，因为可以完全控制这些第三方的代码，在必要的时候可以修改或者二次开发。</p>
+<h2 id="1-4-MIT许可证（The-MIT-License）"><a href="#1-4-MIT许可证（The-MIT-License）" class="headerlink" title="1.4 MIT许可证（The MIT License）"></a>1.4 MIT许可证（The MIT License）</h2><p>MIT许可证（The MIT License）是许多软件授权条款中，被广泛使用的其中一种。与其他常见的软件授权条款（如GPL、LGPL、BSD）相比，MIT是相对宽松的软件授权条款。</p>
+<p>MIT许可证之名源自麻省理工学院（Massachusetts Institute of Technology, MIT），又称“X条款”（X License）或“X11条款”（X11 License）。</p>
+<p>MIT是和BSD一样宽范的许可协议，作者只想保留版权,而无任何其他了限制。也就是说，你必须在你的发行版里包含原许可协议的声明，无论你是以二进制发布的还是以源代码发布的。</p>
+<h2 id="1-5-MPL（Mozilla-Public-License）"><a href="#1-5-MPL（Mozilla-Public-License）" class="headerlink" title="1.5 MPL（Mozilla Public License）"></a>1.5 MPL（Mozilla Public License）</h2><p>MPL是The Mozilla Public License的简写，是1998年初Netscape的 Mozilla小组为其开源软件项目设计的软件许可证。MPL许可证出现的最重要原因就是，Netscape公司认为GPL许可证没有很好地平衡开发者对源代码的需求和他们利用源代码获得的利益。同著名的GPL许可证和BSD许可证相比，MPL在许多权利与义务的约定方面与它们相同（因为都是符合OSIA 认定的开源软件许可证）。但是，相比而言MPL还有以下几个显著的不同之处:</p>
+<p>MPL虽然要求对于经MPL许可证发布的源代码的修改也要以MPL许可证的方式再许可出来，以保证其他人可以在MPL的条款下共享源代码。但是，在MPL 许可证中对“发布”的定义是“以源代码方式发布的文件”，这就意味着MPL允许一个企业在自己已有的源代码库上加一个接口，除了接口程序的源代码以MPL 许可证的形式对外许可外，源代码库中的源代码就可以不用MPL许可证的方式强制对外许可。这些，就为借鉴别人的源代码用做自己商业软件开发的行为留了一个豁口。<br>MPL许可证第三条第7款中允许被许可人将经过MPL许可证获得的源代码同自己其他类型的代码混合得到自己的软件程序。<br>对软件专利的态度，MPL许可证不像GPL许可证那样明确表示反对软件专利，但是却明确要求源代码的提供者不能提供已经受专利保护的源代码（除非他本人是专利权人，并书面向公众免费许可这些源代码），也不能在将这些源代码以开放源代码许可证形式许可后再去申请与这些源代码有关的专利。<br>对源代码的定义：而在MPL（1.1版本）许可证中，对源代码的定义是:“源代码指的是对作品进行修改最优先择取的形式，它包括:所有模块的所有源程序，加上有关的接口的定义，加上控制可执行作品的安装和编译的‘原本’（原文为‘Script’），或者不是与初始源代码显著不同的源代码就是被源代码贡献者选择的从公共领域可以得到的程序代码。”<br>MPL许可证第3条有专门的一款是关于对源代码修改进行描述的规定，就是要求所有再发布者都得有一个专门的文件就对源代码程序修改的时间和修改的方式有描述。</p>
+<h2 id="1-6-Apache"><a href="#1-6-Apache" class="headerlink" title="1.6 Apache"></a>1.6 Apache</h2><p>Apache Licence是著名的非盈利开源组织Apache采用的协议。该协议和BSD类似，同样鼓励代码共享和尊重原作者的著作权，同样允许代码修改，再发布（作为开源或商业软件）。需要满足的条件也和BSD类似：<br>需要给使用代码的用户一份Apache Licence，如果你修改了代码，需要在被修改的文件中说明。在延伸的代码中（修改和有源代码衍生的代码中）需要带有原来代码中的协议，商标，专利声明和其他原来作者规定需要包含的说明。如果在发布的产品中包含一个Notice文件，则在Notice文件中需要带有Apache Licence。你可以在Notice中增加自己的许可，但不可以表现为对Apache Licence构成更改。Apache Licence也是对商业应用友好的许可。使用者也可以在需要的时候修改代码来满足需要并作为开源或商业产品发布/销售。</p>
+<h2 id="1-7-LGPL"><a href="#1-7-LGPL" class="headerlink" title="1.7 LGPL"></a>1.7 LGPL</h2><p>GNU宽通用公共许可证（GNU Lesser General Public License，简称GNU LGPL、LGPL）被用于一小部分（不是全部）的GNU库。</p>
+<p>LGPL是GPL的一个为主要为类库使用设计的开源协议。和GPL要求任何使用/修改/衍生之GPL类库的的软件必须采用GPL协议不同。LGPL 允许商业软件通过类库引用(link)方式使用LGPL类库而不需要开源商业软件的代码。这使得采用LGPL协议的开源代码可以被商业软件作为类库引用并发布和销售。</p>
+<p>但是如果修改LGPL协议的代码或者衍生，则所有修改的代码，涉及修改部分的额外代码和衍生的代码都必须采用LGPL协议。因此LGPL协议的开源代码很适合作为第三方类库被商业软件引用，但不适合希望以LGPL协议代码为基础，通过修改和衍生的方式做二次开发的商业软件采用。</p>
+<p>GPL/LGPL都保障原作者的知识产权，避免有人利用开源代码复制并开发类似的产品。</p>
+<p><strong>LGPL与GPL差异之处</strong></p>
+<p>LGPL主要使用之标的为软件函式库(“Software Libraries”),虽然其亦可使用于独立存在的应用程式。比较有名的例子为Mozilla跟OpenOffice。</p>
+<p>LGPL有一特点是LGPL软件可以被转换成GPL(参见Section 3)。这种特性对于在GPL函式库或应用程式中直接使用LGPL程式有一定程度之帮助。</p>
+<h1 id="2-安装各发行版系统的安装-centos-rockylinux-ubuntu-等"><a href="#2-安装各发行版系统的安装-centos-rockylinux-ubuntu-等" class="headerlink" title="2. 安装各发行版系统的安装(centos, rockylinux, ubuntu, 等)"></a>2. 安装各发行版系统的安装(centos, rockylinux, ubuntu, 等)</h1><h2 id="2-1-CentOS-8"><a href="#2-1-CentOS-8" class="headerlink" title="2.1 CentOS 8"></a>2.1 CentOS 8</h2><h3 id="自定义分区"><a href="#自定义分区" class="headerlink" title="自定义分区"></a>自定义分区</h3><p>Storage Configuration -&gt; Custiom</p>
+<p>MANUAL PARTITIONING -&gt; Standard Partition</p>
+<h3 id="创建-boot分区"><a href="#创建-boot分区" class="headerlink" title="创建/boot分区"></a>创建/boot分区</h3><p>+</p>
+<p>Mount Point -&gt; /boot</p>
+<p>Desired Capacity -&gt; 1G</p>
+<h3 id="创建根分区"><a href="#创建根分区" class="headerlink" title="创建根分区"></a>创建根分区</h3><p>+</p>
+<p>Mount Point -&gt; /</p>
+<p>Desired Capacity -&gt; 100G</p>
+<h3 id="创建swap分区"><a href="#创建swap分区" class="headerlink" title="创建swap分区"></a>创建swap分区</h3><p>+</p>
+<p>Mount Point -&gt; swap</p>
+<p>Desired Capacity -&gt; 2G</p>
+<h3 id="创建自定义的-data数据分区"><a href="#创建自定义的-data数据分区" class="headerlink" title="创建自定义的/data数据分区"></a>创建自定义的/data数据分区</h3><p>+</p>
+<p>Mount Point -&gt; /data</p>
+<p>Desired Capacity -&gt; 50G</p>
+<h3 id="安装指定包组-Software-Selection"><a href="#安装指定包组-Software-Selection" class="headerlink" title="安装指定包组(Software Selection)"></a>安装指定包组(Software Selection)</h3><p>server with GUI</p>
+<h3 id="配置网络和主机名"><a href="#配置网络和主机名" class="headerlink" title="配置网络和主机名"></a>配置网络和主机名</h3><p>on</p>
+<p>Host Name</p>
+<h3 id="设置时区和时间"><a href="#设置时区和时间" class="headerlink" title="设置时区和时间"></a>设置时区和时间</h3><p>Asia Shanghai</p>
+<h2 id="2-2-Ubuntu-20-04-3"><a href="#2-2-Ubuntu-20-04-3" class="headerlink" title="2.2 Ubuntu 20.04.3"></a>2.2 Ubuntu 20.04.3</h2><h3 id="Mirror-address"><a href="#Mirror-address" class="headerlink" title="Mirror address"></a>Mirror address</h3><p><a target="_blank" rel="noopener" href="http://mirrors.aliyun.com/ubuntu/">http://mirrors.aliyun.com/ubuntu/</a></p>
+<h3 id="SSH-Setup"><a href="#SSH-Setup" class="headerlink" title="SSH Setup"></a>SSH Setup</h3><p>[x] Install OpenSSH server <em><strong>空格打上叉</strong></em></p>
+<h1 id="3-Linux中总结-man"><a href="#3-Linux中总结-man" class="headerlink" title="3.Linux中总结(man)"></a>3.Linux中总结(man)</h1><p>Linux man 命令用于显示 Linux 操作系统中的手册页（manual page），它提供了对 Linux 操作系统中各种命令、函数、库等的详细说明，man 命令有许多参数。</p>
+<p>使用 man ls 命令可以查看 ls 命令的手册页。man 命令的使用方法较为简单，可以通过 man 命令的帮助文档 (man man) 查看更多使用方法和参数说明。</p>
+<h2 id="3-1-如何通过一个简短的关键字-，例如process-获取相关的命令。"><a href="#3-1-如何通过一个简短的关键字-，例如process-获取相关的命令。" class="headerlink" title="3.1 如何通过一个简短的关键字 ，例如process 获取相关的命令。"></a>3.1 如何通过一个简短的关键字 ，例如process 获取相关的命令。</h2><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">man -k process<br></code></pre></td></tr></table></figure>
+
+<h2 id="3-2-通过命令的描述，选择一个命令，获取命令的man文档。"><a href="#3-2-通过命令的描述，选择一个命令，获取命令的man文档。" class="headerlink" title="3.2 通过命令的描述，选择一个命令，获取命令的man文档。"></a>3.2 通过命令的描述，选择一个命令，获取命令的man文档。</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">man <span class="hljs-built_in">ls</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="3-3-解读man文档，man分几个部分？man每个部分的解释，特别是语法部分。-lt-gt-…等各代表什么含义。"><a href="#3-3-解读man文档，man分几个部分？man每个部分的解释，特别是语法部分。-lt-gt-…等各代表什么含义。" class="headerlink" title="3.3 解读man文档，man分几个部分？man每个部分的解释，特别是语法部分。&lt;&gt;, [] …等各代表什么含义。"></a>3.3 解读man文档，man分几个部分？man每个部分的解释，特别是语法部分。&lt;&gt;, [] …等各代表什么含义。</h2><p>存放路径：/usr/share/man</p>
+<h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><table>
+<thead>
+<tr>
+<th>参数</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-f</td>
+<td>显示命令或函数的简短描述。</td>
+</tr>
+<tr>
+<td>-k</td>
+<td>使用关键字搜索所有与该关键字相关的手册页。</td>
+</tr>
+<tr>
+<td>-S</td>
+<td>指定手册页的搜索路径。</td>
+</tr>
+<tr>
+<td>-a</td>
+<td>显示所有与命令或函数相关的手册页。</td>
+</tr>
+<tr>
+<td>-w</td>
+<td>显示命令或函数的手册页文件路径。</td>
+</tr>
+<tr>
+<td>-C</td>
+<td>指定手册页的格式。</td>
+</tr>
+<tr>
+<td>-l</td>
+<td>显示所有手册页的列表。</td>
+</tr>
+<tr>
+<td>-p</td>
+<td>显示函数的原型。</td>
+</tr>
+<tr>
+<td>-s</td>
+<td>显示指定节的手册页。</td>
+</tr>
+<tr>
+<td>-u</td>
+<td>显示未压缩的手册页。</td>
+</tr>
+<tr>
+<td>-h</td>
+<td>显示帮助信息。</td>
+</tr>
+<tr>
+<td>-M</td>
+<td>指定手册页的源路径。</td>
+</tr>
+</tbody></table>
+<h3 id="帮助信息含义"><a href="#帮助信息含义" class="headerlink" title="帮助信息含义"></a>帮助信息含义</h3><table>
+<thead>
+<tr>
+<th>标题</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>NAME</td>
+<td>命令名称及功能</td>
+</tr>
+<tr>
+<td>SYNOPSIS</td>
+<td>命令语法，包括可用的选项</td>
+</tr>
+<tr>
+<td>DESCRIPTION</td>
+<td>命令功能的详细说明</td>
+</tr>
+<tr>
+<td>OPTIONS</td>
+<td>每个选项的详细说明</td>
+</tr>
+<tr>
+<td>EXAMPLES</td>
+<td>用法示例</td>
+</tr>
+<tr>
+<td>ENVIRONMENT</td>
+<td>命令使用的环境变量</td>
+</tr>
+<tr>
+<td>FILES</td>
+<td>命令相关的配置文件</td>
+</tr>
+<tr>
+<td>AUTHOR</td>
+<td>程序的作者</td>
+</tr>
+<tr>
+<td>BUGS</td>
+<td>错误、缺点、警告</td>
+</tr>
+<tr>
+<td>COPYRIGHT</td>
+<td>版权信息</td>
+</tr>
+<tr>
+<td>SEE ALSO</td>
+<td>参照、相关信息</td>
+</tr>
+<tr>
+<td>[ ]</td>
+<td>可选内容</td>
+</tr>
+<tr>
+<td>&lt; &gt;</td>
+<td>必选内容</td>
+</tr>
+<tr>
+<td>a |b</td>
+<td>多选一</td>
+</tr>
+<tr>
+<td>{ }</td>
+<td>分组</td>
+</tr>
+<tr>
+<td>…</td>
+<td>同一个内容可出现多次</td>
+</tr>
+</tbody></table>
+<p>查看man章节</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">whatis man<br></code></pre></td></tr></table></figure>
+
+
+
+<table>
+<thead>
+<tr>
+<th>章节</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>标准用户命令（包含大量的命令手册）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>系统调用（在程序中使用，用来请求内核执行指令）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>库调用</td>
+</tr>
+<tr>
+<td>4</td>
+<td>特殊文件（包含物理设备和设备的驱动信息）</td>
+</tr>
+<tr>
+<td>5</td>
+<td>文件格式（包含配置文件）</td>
+</tr>
+<tr>
+<td>6</td>
+<td>游戏</td>
+</tr>
+<tr>
+<td>7</td>
+<td>杂项（各种混杂信息）</td>
+</tr>
+<tr>
+<td>8</td>
+<td>管理命令（系统管理员使用的特殊命令）</td>
+</tr>
+<tr>
+<td>9</td>
+<td>系统内核KPI</td>
+</tr>
+</tbody></table>
+<h2 id="3-4-根据语法部分，简要的写几个操作。"><a href="#3-4-根据语法部分，简要的写几个操作。" class="headerlink" title="3.4 根据语法部分，简要的写几个操作。"></a>3.4 根据语法部分，简要的写几个操作。</h2><h3 id="使用实例"><a href="#使用实例" class="headerlink" title="使用实例"></a>使用实例</h3><p>查看命令的使用说明：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">man <span class="hljs-built_in">ls</span><br></code></pre></td></tr></table></figure>
+
+<p>在所有手册页中搜索关键字：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">man -k keyword<br></code></pre></td></tr></table></figure>
+
+<p>显示所有与命令或函数相关的手册页：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">man -a <span class="hljs-built_in">command</span><br></code></pre></td></tr></table></figure>
+
+<p>显示命令或函数的手册页文件路径：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">man -w <span class="hljs-built_in">command</span><br></code></pre></td></tr></table></figure>
+
+<p>显示函数的原型：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">man -p <span class="hljs-keyword">function</span><br></code></pre></td></tr></table></figure>
+
+<p>显示指定节的手册页：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">man 2 open<br></code></pre></td></tr></table></figure>
+
+<p>显示未压缩的手册页：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">man -u <span class="hljs-built_in">command</span><br></code></pre></td></tr></table></figure>
+
+<p>指定手册页的源路径：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">man -M /usr/share/man <span class="hljs-built_in">command</span><br></code></pre></td></tr></table></figure>
+
+<h1 id="4-切换到-etc-目录，列出fstab文件的详细信息，详细解决fstab一行，每个或每几个字符的详细含义。"><a href="#4-切换到-etc-目录，列出fstab文件的详细信息，详细解决fstab一行，每个或每几个字符的详细含义。" class="headerlink" title="4. 切换到/etc/目录，列出fstab文件的详细信息，详细解决fstab一行，每个或每几个字符的详细含义。"></a>4. 切换到/etc/目录，列出fstab文件的详细信息，详细解决fstab一行，每个或每几个字符的详细含义。</h1><p>/etc/fstab文件包含系统启动时自动挂载的分区，可以通过修改文件内容将某些文件设置为开机启自动挂载</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs awk">[root@rocky8.<span class="hljs-number">5</span> ~]<span class="hljs-comment"># cat /etc/fstab</span><br><br><span class="hljs-comment">#</span><br><span class="hljs-comment"># /etc/fstab</span><br><span class="hljs-comment"># Created by anaconda on Wed Jul 20 15:23:58 2022</span><br><span class="hljs-comment">#</span><br><span class="hljs-comment"># Accessible filesystems, by reference, are maintained under &#x27;/dev/disk/&#x27;.</span><br><span class="hljs-comment"># See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info.</span><br><span class="hljs-comment">#</span><br><span class="hljs-comment"># After editing this file, run &#x27;systemctl daemon-reload&#x27; to update systemd</span><br><span class="hljs-comment"># units generated from this file.</span><br><span class="hljs-comment">#</span><br><span class="hljs-regexp">/dev/m</span>apper<span class="hljs-regexp">/rl-root     /</span>                       xfs     defaults        <span class="hljs-number">0</span> <span class="hljs-number">0</span><br>UUID=c92fb8f7-<span class="hljs-number">65</span>f8-<span class="hljs-number">4</span>a3c-aada-c1a63d0b5c86 /boot                   xfs     defaults        <span class="hljs-number">0</span> <span class="hljs-number">0</span><br><span class="hljs-regexp">/dev/m</span>apper/rl-swap     none                    swap    defaults        <span class="hljs-number">0</span> <span class="hljs-number">0</span><br><br></code></pre></td></tr></table></figure>
+
+<p>文件内容解释：</p>
+<p>第一列：设备磁盘文件名或UUID（磁盘文件名会因为磁盘顺序变化导致挂载乱序，UUID唯一标识符，命令blkid查看文件名和对应的UUID）</p>
+<p>第二列：设备挂载点</p>
+<p>第三列：挂载的文件系统格式（如：ext3，ext4，xfs）</p>
+<p>第四列：文件系统挂载参数，默认为defaults</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs bash">Async/sync 设置是否为同步方式运行，默认为async<br>auto/noauto 当下载mount -a 的命令时，此文件系统是否被主动挂载。默认为auto<br>rw/ro 是否以以只读或者读写模式挂载<br><span class="hljs-built_in">exec</span>/noexec 限制此文件系统内是否能够进行”执行”的操作<br>user/nouser 是否允许用户使用mount命令挂载<br>suid/nosuid 是否允许SUID的存在<br>Usrquota 启动文件系统支持磁盘配额模式<br>Grpquota 启动文件系统对群组磁盘配额模式的支持<br>Defaults 同时具有rw,suid,dev,<span class="hljs-built_in">exec</span>,auto,nouser,async等默认参数的设置<br></code></pre></td></tr></table></figure>
+
+<p>第五列：能否被dump备份；0表示不备份，1表示每天备份，2表示不定期备份；默认为0</p>
+<p>第六列：开机时是否检测磁盘扇区；0表示不检验，1，2表示检验</p>
+<h1 id="5-简要说明FHS结构。"><a href="#5-简要说明FHS结构。" class="headerlink" title="5. 简要说明FHS结构。"></a>5. 简要说明FHS结构。</h1><p><img src="5859baa175ca97e8bf32ec61352001e3_format,png.png" srcset="/img/loading.gif" lazyload alt="5859baa175ca97e8bf32ec61352001e3_format,png"></p>
+<p><img src="3be6d74036b67e6e4cfd71c97b935166_webp.webp" srcset="/img/loading.gif" lazyload alt="3be6d74036b67e6e4cfd71c97b935166_webp"></p>
+<h3 id="特点："><a href="#特点：" class="headerlink" title="特点："></a>特点：</h3><p>规范每个目录下存放什么类型数据</p>
+<p>文件系统从 / 开始</p>
+<p>文件名最长255个字节</p>
+<p>路径分隔符：/</p>
+<p>包括路径在内文件名称最长4095个字节</p>
+<p>严格区分大小写</p>
+<p>蓝色：目录；绿色：可执行文件；红色：压缩文件；浅蓝色：链接文件；灰色：其他文件</p>
+<p>除了斜杠和NUL,所有字符都有效.但使用特殊字符的目录名和文件不推荐使用，有些字符需要用引 号来引用</p>
+<p>每个文件都有两类相关数据：元数据：metadata，即属性， 数据：data，即文件内容</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><code class="hljs bash">/boot：引导文件存放目录，内核文件(vmlinuz)、引导加载器(bootloader, grub)都存放于此目录<br>/bin：所有用户使用的基本命令；不能关联至独立分区，OS启动即会用到的程序<br>/sbin：管理类的基本命令；不能关联至独立分区，OS启动即会用到的程序<br>/lib：启动时程序依赖的基本共享库文件以及内核模块文件(/lib/modules)<br>/lib64：专用于x86_64系统上的辅助共享库文件存放位置<br>/etc：配置文件目录<br>/home/USERNAME：普通用户家目录<br>/root：管理员的家目录<br>/media：便携式移动设备挂载点<br>/mnt：临时文件系统挂载点<br>/dev：设备文件及特殊文件存储位置<br>b: block device，随机访问<br>c: character device，线性访问<br>/opt：第三方应用程序的安装位置<br>/srv：系统上运行的服务用到的数据<br>/tmp：临时文件存储位置<br>/usr: universal shared, read-only data<br>bin: 保证系统拥有完整功能而提供的应用程序<br>sbin:<br>lib：32位使用<br>lib64：只存在64位系统<br>include: C程序的头文件(header files)<br>share：结构化独立的数据，例如doc, man等<br><span class="hljs-built_in">local</span>：第三方应用程序的安装位置<br>bin, sbin, lib, lib64, etc, share<br>/var: variable data files<br>cache: 应用程序缓存数据目录<br>lib: 应用程序状态信息数据<br><span class="hljs-built_in">local</span>：专用于为/usr/local下的应用程序存储可变数据<br>lock: 锁文件<br><span class="hljs-built_in">log</span>: 日志目录及文件<br>opt: 专用于为/opt下的应用程序存储可变数据<br>run: 运行中的进程相关数据,通常用于存储进程pid文件<br>spool: 应用程序数据池<br>tmp: 保存系统两次重启之间产生的临时数据<br>/proc: 用于输出内核与进程信息相关的虚拟文件系统<br>/sys：用于输出当前系统上硬件设备相关信息虚拟文件系统<br>/selinux: security enhanced Linux，selinux相关的安全策略等信息的存储位置<br></code></pre></td></tr></table></figure>
+
+<h3 id="应用程序的组成部分"><a href="#应用程序的组成部分" class="headerlink" title="应用程序的组成部分"></a>应用程序的组成部分</h3><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs awk">二进制程序：<span class="hljs-regexp">/bin, /</span>sbin, <span class="hljs-regexp">/usr/</span>bin, <span class="hljs-regexp">/usr/</span>sbin, <span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/bin, /u</span>sr<span class="hljs-regexp">/local/</span>sbin<br>库文件：<span class="hljs-regexp">/lib, /</span>lib64, <span class="hljs-regexp">/usr/</span>lib, <span class="hljs-regexp">/usr/</span>lib64, <span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/lib, /u</span>sr<span class="hljs-regexp">/local/</span>lib64<br>配置文件：<span class="hljs-regexp">/etc, /</span>etc<span class="hljs-regexp">/DIRECTORY, /u</span>sr<span class="hljs-regexp">/local/</span>etc<br>帮助文件：<span class="hljs-regexp">/usr/</span>share<span class="hljs-regexp">/man, /u</span>sr<span class="hljs-regexp">/share/</span>doc, <span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/share/m</span>an, <span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/share/</span>doc<br></code></pre></td></tr></table></figure>
+
+<h1 id="6-用自己的理解总结-文件管理，用户管理，组用户，权限管理相关的命令。"><a href="#6-用自己的理解总结-文件管理，用户管理，组用户，权限管理相关的命令。" class="headerlink" title="6. 用自己的理解总结 文件管理，用户管理，组用户，权限管理相关的命令。"></a>6. 用自己的理解总结 文件管理，用户管理，组用户，权限管理相关的命令。</h1><h2 id="6-1-文件"><a href="#6-1-文件" class="headerlink" title="6.1 文件"></a>6.1 文件</h2><h3 id="显示当前工作目录"><a href="#显示当前工作目录" class="headerlink" title="显示当前工作目录"></a>显示当前工作目录</h3><p>pwd</p>
+<h3 id="绝对路径和相对路径"><a href="#绝对路径和相对路径" class="headerlink" title="绝对路径和相对路径"></a>绝对路径和相对路径</h3><p><strong>绝对路径</strong></p>
+<p>以正斜杠 / 即根目录开始</p>
+<p>完整的文件的位置路径</p>
+<p>可用于任何想指定一个文件名的时候</p>
+<p><strong>相对路径</strong></p>
+<p>不以斜线开始 一般情况下，是指相对于当前工作目录的路径，特殊场景下，是相对于某目录的位置 可以作为一个简短的形式指定一个文件名</p>
+<p><strong>基名：basename</strong>，只取文件名而不要路径</p>
+<p><strong>目录名：dirname</strong>，只取路径，不要文件名</p>
+<h3 id="目录切换"><a href="#目录切换" class="headerlink" title="目录切换"></a>目录切换</h3><p>切换到上级目录： cd …</p>
+<p>切换到上一次目录： cd -</p>
+<p>切换到根目录：cd</p>
+<h3 id="列出目录信息"><a href="#列出目录信息" class="headerlink" title="列出目录信息"></a>列出目录信息</h3><p>命令格式：ls 选项 参数</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs diff">常见选项：<br><span class="hljs-deletion">-a 包含隐藏文件</span><br><span class="hljs-deletion">-l 显示额外的信息</span><br><span class="hljs-deletion">-R 目录递归</span><br><span class="hljs-deletion">-ld 目录和符号链接信息</span><br><span class="hljs-deletion">-1 文件分行显示</span><br><span class="hljs-deletion">-S 按从大到小排序</span><br><span class="hljs-deletion">-t 按mtime排序</span><br><span class="hljs-deletion">-u 配合-t选项，显示并按atime从新到旧排序</span><br><span class="hljs-deletion">-U 按目录存放顺序显示</span><br><span class="hljs-deletion">-X 按文件后缀排序</span><br><span class="hljs-deletion">-F 对不同类型文件显示时附加不同的符号：*/=&gt;@|</span><br><span class="hljs-deletion">-C 文件多时，以多列的方式显示文件，默认是一列（标准输出）</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="查看文件状态stat"><a href="#查看文件状态stat" class="headerlink" title="查看文件状态stat"></a>查看文件状态stat</h3><p><strong>时间戳：</strong></p>
+<p>Access：访问时间，atime，读取文件内容（进入文件发生改变，echo 导入数据不影响）</p>
+<p>Modify：修改时间，mtime，改变文件内容(改变文件数据，不改变内容wq保存退出也会影响)</p>
+<p>Change：改变时间，ctime，元数据发生改变（改变数据或权限都会影响）</p>
+<p><strong>文件通配符：</strong><br>文件通配符可以用来匹配符合条件的多个文件，方便批量管理文件</p>
+<p>通配符采有特定的符号，表示特定的含义，此特符号称为元 meta 字符</p>
+<p>常见的通配符如下：</p>
+<figure class="highlight prolog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><code class="hljs prolog">* 匹配零个或多个字符，但不匹配 <span class="hljs-string">&quot;.&quot;</span> 开头的文件，即隐藏文件<br>? 匹配任何单个字符,一个汉字也算一个字符<br>~ 当前用户家目录<br>~mage 用户mage家目录<br>[<span class="hljs-number">0</span><span class="hljs-number">-9</span>] 匹配数字范围<br>[a-z] 一个字母<br>[<span class="hljs-symbol">A</span>-<span class="hljs-symbol">Z</span>] 一个字母<br>[wang] 匹配列表中的任何的一个字符<br>[^wang] 匹配列表中的所有字符以外的字符<br>[^a-z] 匹配列表中的所有字符以外的字符<br>. 和 ~+ 当前工作目录<br>~-   前一个工作目录<br>&#123; &#125; 产生一个序列，以逗号分隔，且不能有空格<br>$ 以什么结尾<br>^ 以什么开头<br><br>[:digit:]：任意数字，相当于<span class="hljs-number">0</span><span class="hljs-number">-9</span><br>[:lower:]：任意小写字母,表示 a-z<br>[:upper:]: 任意大写字母,表示 <span class="hljs-symbol">A</span>-<span class="hljs-symbol">Z</span> <br>[:alpha:]: 任意大小写字母<br>[:alnum:]：任意数字或字母<br>[:blank:]：水平空白字符<br>[:space:]：水平或垂直空白字符<br>[:punct:]：标点符号<br>[:print:]：可打印字符<br>[:cntrl:]：控制（非打印）字符<br>[:graph:]：图形字符<br>[:xdigit:]：十六进制字符<br></code></pre></td></tr></table></figure>
+
+<h3 id="创建空文件和刷新时间"><a href="#创建空文件和刷新时间" class="headerlink" title="创建空文件和刷新时间"></a>创建空文件和刷新时间</h3><p>格式：touch 选项 参数（文件名）</p>
+<p>选项说明：</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-a : 仅改变atime和ctime</span><br><span class="hljs-deletion">-m : 仅改变mtime和ctime</span><br><span class="hljs-deletion">-t ：[[CC]YY]MMDDhhmm[.ss] 指定atime和mtime的时间戳 （CC 为年数中的前两位，YY为年数的后两位，MM为月份，DD为天数，hh小时数，mm分钟数，SS为秒数0-61）</span><br><span class="hljs-deletion">-c ： 如果文件不存在，则不予创建</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="复制文件和目录"><a href="#复制文件和目录" class="headerlink" title="复制文件和目录"></a>复制文件和目录</h3><p>copy 复制文件和目录。</p>
+<p>cp 命令主要用于复制文件或目录。即用来将一个或多个源文件或者目录复制到指定的目的文件或目录。</p>
+<p>cp 命令可以将单个源文件复制成一个指定文件名的具体的文件或一个已经存在的目录下。</p>
+<p>cp 命令支持同时复制多个文件，当一次复制多个文件时，目标文件参数必须是一个已经存在的目录，否则将出现错误</p>
+<p>格式：cp [选项] source_file dest_file</p>
+<p>常用选项：</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-a ：等于 “dpR” 参数组合，通常在复制目录时保留链接、文件属性，并复制目录下的所有内容。</span><br><span class="hljs-deletion">-b：目标存在，覆盖前，先备份，默认形式为filename~,只保留最近的备份</span><br><span class="hljs-deletion">-d ：不复制原文件，只复制链接名</span><br><span class="hljs-deletion">-f ：强行复制文件或目录，覆盖已经存在的目标文件而不给出提示。</span><br><span class="hljs-deletion">-i ：与-f选项相反，在覆盖目标文件之前给出提示，要求用户确认是否覆盖。</span><br><span class="hljs-deletion">-l ：不复制文件，只是生成源文件的硬链接文件。</span><br><span class="hljs-deletion">-p ：复制文件时保留源文件或目录的属性。</span><br><span class="hljs-deletion">-r ：递归复制目录，即复制该目录及其所有的子目录和文件。</span><br><span class="hljs-deletion">-R ：同 -r 选项参数。</span><br><span class="hljs-deletion">-s：对源文件建立符号连接，而非复制文件；</span><br><span class="hljs-deletion">-S：在备份文件时，用指定的后缀“SUFFIX”代替文件的默认后缀；</span><br><span class="hljs-deletion">-u：同步复制源文件文件，只复制源文件比目标更新文件或目标不存在的文件。</span><br><span class="hljs-deletion">-v：详细显示命令执行的操作。</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="移动和重命名文件"><a href="#移动和重命名文件" class="headerlink" title="移动和重命名文件"></a>移动和重命名文件</h3><p>mv 移动文件或改名</p>
+<p>如果目标文件是文件夹，则源文件直接移动到该文件夹内，名字还是源文件的名字</p>
+<p>如果目标文件时文件，则源文件移动的同时也会更改名字</p>
+<p>如果源文件为多个，则目标必须是目录，并且统一移动到目录下</p>
+<p>格式： mv 选项 参数</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-b：当目标文件存在是，先进性备份再覆盖</span><br><span class="hljs-deletion">-f： 当目标文件存在是，强制覆盖</span><br><span class="hljs-deletion">-i：默认选项，当目标文件存在时，提示是否覆盖</span><br><span class="hljs-deletion">-v：显示过程</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="删除文件（重点）"><a href="#删除文件（重点）" class="headerlink" title="删除文件（重点）"></a>删除文件（重点）</h3><p>rm 删除文件和目录</p>
+<p>格式：rm [选项] file</p>
+<p>常用选项：</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-i 交互式，删除前会询问是否执行（默认加了）</span><br><span class="hljs-deletion">-f 强制删除</span><br><span class="hljs-deletion">-r 递归删除，常用于目录的删除，高危操作，谨慎！！！</span><br></code></pre></td></tr></table></figure>
+
+<p><strong>删除特殊字符：</strong>例如以 - 开头的文件</p>
+<p>因为一般“-”后面接的是选项。因此，单纯地使用<code>rm -file</code>，系统的命令就会误判。所以，只能用避过首字符“-”的方式（加上本目录 ./）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">rm</span> ./-file<br></code></pre></td></tr></table></figure>
+
+<h3 id="显示目录树：tree"><a href="#显示目录树：tree" class="headerlink" title="显示目录树：tree"></a>显示目录树：tree</h3><p>格式：tree 选项 文件</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-d：只显示目录</span><br><span class="hljs-deletion">-L level :指定显示的层级数目</span><br><span class="hljs-deletion">-p : 显示结构同时显示文件权限</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="创建目录：mkdir"><a href="#创建目录：mkdir" class="headerlink" title="创建目录：mkdir"></a>创建目录：mkdir</h3><p>格式：mkdir 选项 目录文件（一个或多个）</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-m：设置文件权限</span><br><span class="hljs-deletion">-p：递归创建多级目录，如果目录已存在，不会报错</span><br><span class="hljs-deletion">-v：显示创建过程</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="删除空目录：rmdir"><a href="#删除空目录：rmdir" class="headerlink" title="删除空目录：rmdir"></a>删除空目录：rmdir</h3><p>常见选项：</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-p 递归删除父空目录，删除指定目录及其上级文件夹</span><br><span class="hljs-deletion">-v 显示详细信息</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="6-2-文本内容查看"><a href="#6-2-文本内容查看" class="headerlink" title="6.2 文本内容查看"></a>6.2 文本内容查看</h2><h3 id="查看文本文件内容：cat"><a href="#查看文本文件内容：cat" class="headerlink" title="查看文本文件内容：cat"></a>查看文本文件内容：cat</h3><p>格式：cat 选项 文件file</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-E：显示行结束符$</span><br><span class="hljs-deletion">-A：显示所有控制符</span><br><span class="hljs-deletion">-n：对显示出的每一行进行编号</span><br><span class="hljs-deletion">-b：非空行编号</span><br><span class="hljs-deletion">-s：压缩连续的空行成一行</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="分页查看文件内容：more-less-head-tail"><a href="#分页查看文件内容：more-less-head-tail" class="headerlink" title="分页查看文件内容：more;less;head;tail"></a>分页查看文件内容：more;less;head;tail</h3><h3 id="more-命令：可以实现分页查看文件，配合管道符实现输出信息的分页"><a href="#more-命令：可以实现分页查看文件，配合管道符实现输出信息的分页" class="headerlink" title="more 命令：可以实现分页查看文件，配合管道符实现输出信息的分页"></a>more 命令：可以实现分页查看文件，配合管道符实现输出信息的分页</h3><p>快捷键：</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs x86asm">空格键 ：显示手册页的下一幕<br><span class="hljs-keyword">Enter</span>：一次滚动手册页的一行<br>b：回滚一屏<br>f：前滚一屏<br>q：退出<br>/<span class="hljs-built_in">word</span>：搜索<span class="hljs-built_in">word</span>字符串<br></code></pre></td></tr></table></figure>
+
+<h3 id="less-命令：也可以实现分页查看文件或STDIN输出，less-命令是man命令使用的分页器"><a href="#less-命令：也可以实现分页查看文件或STDIN输出，less-命令是man命令使用的分页器" class="headerlink" title="less 命令：也可以实现分页查看文件或STDIN输出，less 命令是man命令使用的分页器"></a>less 命令：也可以实现分页查看文件或STDIN输出，less 命令是man命令使用的分页器</h3><p>格式：less 选项 文件</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-e：当文件显示结束后，自动离开</span><br><span class="hljs-deletion">-i：忽略搜索时的大小写</span><br><span class="hljs-deletion">-m：显示类似more命令的百分比</span><br><span class="hljs-deletion">-N：显示每行的行号</span><br><span class="hljs-deletion">-s：显示连续空行为一行</span><br></code></pre></td></tr></table></figure>
+
+<p>常用操作快捷键</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs css">/字符串：向下搜索 字符串 的功能<br>？字符串：向上搜索 字符串 的功能<br>n：重复前一个搜索（与 / 或 ？有关）<br>N：反向重复前一个搜索<br><span class="hljs-selector-tag">b</span>：向前翻一页<br>d：向后翻一页<br><span class="hljs-selector-tag">q</span>：退出<br>空格键：向后翻一页<br>向上键：向上翻动一行<br>向下键：向下翻动一行<br></code></pre></td></tr></table></figure>
+
+<h3 id="head-命令：可以显示文件或标准输入的前面行"><a href="#head-命令：可以显示文件或标准输入的前面行" class="headerlink" title="head 命令：可以显示文件或标准输入的前面行"></a>head 命令：可以显示文件或标准输入的前面行</h3><p>格式：head 选项 文件</p>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs clean">-c # ：指定获取前#字节<br>-n # ：指定获取前#行，如果#为减数，表示从文件头取值到倒数第#前<br>-：指定获取前多少行<br></code></pre></td></tr></table></figure>
+
+<h3 id="tail命令：tail和head相反，查看文件或标准输入的倒数行"><a href="#tail命令：tail和head相反，查看文件或标准输入的倒数行" class="headerlink" title="tail命令：tail和head相反，查看文件或标准输入的倒数行"></a>tail命令：tail和head相反，查看文件或标准输入的倒数行</h3><p>格式：tail 选项 文件</p>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs clean">-c #：指定获取后#字节<br>-n #：指定获取后#行，如果#是加数，表示从第#行开始到文件结束取值<br>-：指定获取后几行<br>-f：跟踪显示文件fd新追加的内容,常用日志监控，相当于 --follow=descriptor,当文件删除再新 建同名文件,将无法继续跟踪文件<br></code></pre></td></tr></table></figure>
+
+<h3 id="按列抽取文本：cut"><a href="#按列抽取文本：cut" class="headerlink" title="按列抽取文本：cut"></a>按列抽取文本：cut</h3><p>cut命令：可以提取文本文件或STDIN数据的指定列</p>
+<p>格式：cut 选项 文件</p>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs clean">-d：指定分隔符，默认为tab<br>-f：<br>​ #：第#个字段，例如：<span class="hljs-number">3</span><br>​ [#，#]：离散的多个字段，例如<span class="hljs-number">1</span>，<span class="hljs-number">3</span>，<span class="hljs-number">5</span><br>​ #-#：连续的多个字段，例如：<span class="hljs-number">1</span><span class="hljs-number">-6</span><br>-c：按字符切割<br>–output-delimiter=SETING 指定输出分隔符<br></code></pre></td></tr></table></figure>
+
+<h3 id="收集文本统计数据：wc"><a href="#收集文本统计数据：wc" class="headerlink" title="收集文本统计数据：wc"></a>收集文本统计数据：wc</h3><p>wc命令：可用于统计文件的总行数，单词总数，字节总数和字符总数</p>
+<p>格式：wc 选项 文件</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-l：总行数</span><br><span class="hljs-deletion">-w：单词总数</span><br><span class="hljs-deletion">-c：字节总数</span><br><span class="hljs-deletion">-m：字符总数</span><br><span class="hljs-deletion">-L：显示我呢见中最长行的长度</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="文件排序：sort"><a href="#文件排序：sort" class="headerlink" title="文件排序：sort"></a>文件排序：sort</h3><p>sort命令：把整理过的文本显示在终端，不改变原始文件数据</p>
+<p>格式：sort 选项 文件</p>
+<figure class="highlight ldif"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs ldif"><span class="hljs-literal">-</span>r：执行反方向（由下向上）整理<br><span class="hljs-literal">-</span>R：随机排序<br><span class="hljs-literal">-</span>n：按数字大小排序<br><span class="hljs-literal">-</span>f：忽略字符串中的字符大小写<br><span class="hljs-literal">-</span>u：合并重复项，去重<br><span class="hljs-literal">-</span>t ：c 选项使用c做为字段界定符<br><span class="hljs-literal">-</span>k ：<span class="hljs-comment"># 选项按照使用c字符分隔的 # 列来整理能够使用多次</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="去重：uniq"><a href="#去重：uniq" class="headerlink" title="去重：uniq"></a>去重：uniq</h3><p>uniq命令：从输入中删除前后相接的重复项</p>
+<p>格式：uniq 选项 文件</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-c：显示每行重复出现的次数</span><br><span class="hljs-deletion">-d：仅显示重复过的行</span><br><span class="hljs-deletion">-u：仅显示不曾重复的行</span><br>uniq搭配sort一起使用，先排序，后去重<br></code></pre></td></tr></table></figure>
+
+<h3 id="文本比较：diff"><a href="#文本比较：diff" class="headerlink" title="文本比较：diff"></a>文本比较：diff</h3><p>diff命令：比较两个文件之间的区别</p>
+<p>-u 选项来输出“统一的（unified）”diff格式文件，最适用于补丁文件</p>
+<h2 id="6-3-用户"><a href="#6-3-用户" class="headerlink" title="6.3 用户"></a>6.3 用户</h2><h3 id="用户"><a href="#用户" class="headerlink" title="用户"></a>用户</h3><p>linux中每个用户是通过UID来唯一标识</p>
+<p>id</p>
+<p>系统用户UID：1-999</p>
+<p>普通用户UID：1000+</p>
+<h3 id="用户组："><a href="#用户组：" class="headerlink" title="用户组："></a>用户组：</h3><p>linux中可以将一个或多个用户加入用户组中，用户组是通过GID来唯一标识</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs avrasm">[root<span class="hljs-subst">@7</span><span class="hljs-number">-1</span>-tlinux ~]<span class="hljs-meta"># getent group</span><br><span class="hljs-symbol">root:</span><span class="hljs-built_in">x</span>:<span class="hljs-number">0</span>:<br>.......<br><span class="hljs-symbol">mysql:</span><span class="hljs-built_in">x</span>:<span class="hljs-number">1007</span>:<br><span class="hljs-symbol">www:</span><span class="hljs-built_in">x</span>:<span class="hljs-number">1008</span>:<br><span class="hljs-symbol">linuxprobe:</span><span class="hljs-built_in">x</span>:<span class="hljs-number">1009</span>:<br></code></pre></td></tr></table></figure>
+
+<p>系统组：1-999</p>
+<p>普通用户组：1000+</p>
+<p>主要组：用户必须属于一个且只有一个主组，默认创建用户是会自动创建和用户同名的组，做为用户的主要组</p>
+<p>附加组：一个用户可以属于零个或者多个辅助组，附属组</p>
+<h3 id="用户和组的配置文件"><a href="#用户和组的配置文件" class="headerlink" title="用户和组的配置文件"></a>用户和组的配置文件</h3><p>/etc/passwd：用户及其属性信息(名称、UID、主组ID等）</p>
+<p>/etc/shadow：用户密码及其相关属性</p>
+<p>/etc/group：组及其属性信息</p>
+<p>/etc/gshadow：组密码及其相关属性</p>
+<h2 id="6-4-用户和组管理命令"><a href="#6-4-用户和组管理命令" class="headerlink" title="6.4 用户和组管理命令"></a>6.4 用户和组管理命令</h2><p>useradd :创建用户</p>
+<p>usermod：修改用户</p>
+<p>userdel：删除用户</p>
+<p>groupadd：创建组</p>
+<p>groupmod：修改组属性</p>
+<p>groupdel：删除组</p>
+<h2 id="6-5-文件权限管理"><a href="#6-5-文件权限管理" class="headerlink" title="6.5 文件权限管理"></a>6.5 文件权限管理</h2><p>程序访问文件时的权限，取决于此程序的发起者</p>
+<ul>
+<li>进程的发起者，同文件的属主：则应用文件属主权限</li>
+</ul>
+<ul>
+<li><p>进程的发起者，属于文件属组；则应用文件属组权限</p>
+</li>
+<li><p>应用文件“其它”权限</p>
+</li>
+</ul>
+<h3 id="chmod-chown"><a href="#chmod-chown" class="headerlink" title="chmod chown"></a>chmod chown</h3><p>chown用法：<br>用来更改某个目录或文件的用户名和用户组。<br>例子：chown root:root filename<br>chown 用户名:组名 文件路径（可以是绝对路径也可以是相对路径）<br>chmod用法：<br>用来修改某个目录或文件的访问权限。<br>例子：chmod -R 777 filename</p>
+<h3 id="访问控制列表ACL"><a href="#访问控制列表ACL" class="headerlink" title="访问控制列表ACL"></a>访问控制列表ACL</h3><p><strong>setfacl命令：可设置ACL权限</strong></p>
+<p><strong>getfacl命令：可查看设置的ACL权限</strong></p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-deletion">-m：设定ACL权限，u:用户名:权限，g:组名:权限</span><br><span class="hljs-deletion">-x：删除指定用户或群组的ACL权限，setfacl -x u:用户 文件</span><br><span class="hljs-deletion">-b：删除指定文件有关的所有ACL权限，setfacl -b 文件</span><br><span class="hljs-deletion">-d： 设定默认 ACL 权限，命令格式为 “setfacl -m d:u:用户名:权限 文件名”（如果是群组，则使用 d:g:群组名:权限），只对目录生效，指目录中新建立的文件拥有此默认权限，例如 setfacl -m d:u:st:rx /project 表示 st 用户对 project 目录中新建立的文件拥有 rx 权限。</span><br><span class="hljs-deletion">-R： 递归设定 ACL 权限，指设定的 ACL 权限会对目录下的所有子文件生效，命令格式为 “setfacl -m u:用户名:权限 -R 文件名”（群组使用 g:群组名:权限），例如 setfacl -m u:st:rx -R /project 表示 st 用户对已存在于 project 目录中的子文件和子目录拥有 rx 权限。</span><br><span class="hljs-deletion">-k：删除默认的ACL权限</span><br></code></pre></td></tr></table></figure>
+
+<p>参考：<br><a target="_blank" rel="noopener" href="https://blog.51cto.com/u_11451960/5787706">https://blog.51cto.com/u_11451960/5787706</a></p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2023/07/21/hello-world/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Hello World</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2022/05/12/%E7%AC%AC2%E4%B8%AA%E6%96%87%E7%AB%A0/">
+                        <span class="hidden-mobile">第2个文章</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;TOC</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  
+    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
+  
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+        typing(title);
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
